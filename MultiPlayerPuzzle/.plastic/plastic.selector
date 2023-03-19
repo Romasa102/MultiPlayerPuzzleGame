@@ -1,0 +1,4 @@
+repository "MultiPlayerPuzzle@WAB@cloud"
+  path "/"
+    br "/main"
+    co "/main"
