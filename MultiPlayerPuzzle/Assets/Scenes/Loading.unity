@@ -247,6 +247,7 @@ GameObject:
   - component: {fileID: 285081463}
   - component: {fileID: 285081462}
   - component: {fileID: 285081461}
+  - component: {fileID: 285081465}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -337,6 +338,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!95 &285081465
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285081460}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9397562f579cc4dd79eddf804c109723, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &964870484
 GameObject:
   m_ObjectHideFlags: 0
@@ -598,7 +619,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4289483838
+    rgba: 4292059024
   m_fontColor: {r: 0.24313726, g: 0.32941177, b: 0.6745098, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3

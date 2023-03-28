@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (!photonView.IsMine)
+        if (!photonView.IsMine || !SpawnPlayers.UcanMove)
         {
             return;
         }

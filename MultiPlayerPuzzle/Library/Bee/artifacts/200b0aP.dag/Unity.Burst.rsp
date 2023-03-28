@@ -298,7 +298,7 @@
 -r:"/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll"
--r:"/Users/manabemasaaki/Unity/MultiPlayerPuzzle/Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.Unsafe.dll"
+-r:"/Users/manabemasaaki/Unity/MultiPlayerPuzzleGame/MultiPlayerPuzzle/Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.Unsafe.dll"
 -r:"Library/Bee/artifacts/200b0aP.dag/UnityEngine.UI.ref.dll"
 "Library/PackageCache/com.unity.burst@1.8.2/Runtime/BurstCompileAttribute.cs"
 "Library/PackageCache/com.unity.burst@1.8.2/Runtime/BurstCompiler.cs"
