@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Lobby.unity
     guid: a960436b960064643a57c4ef13a6d4e7
   - enabled: 1
+    path: Assets/Scenes/Game_Lv4.unity
+    guid: 8c9681c7d0fea4e69a185533d83174fb
+  - enabled: 1
     path: Assets/Scenes/Game_Lv1.unity
     guid: d17892621c1d9406ab7c68ac239a0acc
   - enabled: 1
@@ -23,7 +26,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game_Lv3.unity
     guid: 2a3266ec85c46489795f5cc6258bc101
-  - enabled: 1
-    path: Assets/Scenes/Survey.unity
-    guid: 15b57843d0db84e0c9bb076902fd8d0c
   m_configObjects: {}

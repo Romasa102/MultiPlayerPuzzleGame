@@ -361,6 +361,8 @@
 "Assets/Script/PlayerMovement.cs"
 "Assets/Script/SpawnPlayers.cs"
 "Assets/Script/StartLoading.cs"
+"Assets/turret.cs"
+"Assets/TurretBulet.cs"
 "Assets/UIManager.cs"
 -langversion:9.0
 

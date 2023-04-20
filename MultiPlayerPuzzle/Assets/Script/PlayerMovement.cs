@@ -19,7 +19,6 @@ public class PlayerMovement : MonoBehaviour
     private Camera MyCamera;
     public bool OnGround = false;
     public GameObject BeGround;
-    private SpriteRenderer spriteRenderer;
     private bool CanStatic = true;
     public GameObject StaticText;
     private PlayerCollision playerCollision;
@@ -30,7 +29,6 @@ public class PlayerMovement : MonoBehaviour
         StaticText = GameObject.Find("StaticStatus");
         MyCamera = GetComponentInChildren<Camera>();
         photonView = GetComponent<PhotonView>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
         if (!photonView.IsMine)
         {
             MyCamera.enabled = false;

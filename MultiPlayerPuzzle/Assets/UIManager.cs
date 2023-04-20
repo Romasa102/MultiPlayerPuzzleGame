@@ -1,22 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+using Photon.Pun;
 
-public class UIManager : MonoBehaviour
+public class UIManager : MonoBehaviourPunCallbacks
 {
-    public static bool Restart;
-    public static bool paused;
-    public GameObject PausePanel;
-    private void Update()
+    public void ExitButton_OnClick()
     {
-        if (paused)
+        if (PhotonNetwork.InRoom)
         {
-            PausePanel.SetActive(true);
+            if (PhotonNetwork.IsMasterClient && PhotonNetwork.CurrentRoom.PlayerCount > 1) MigrateMaster();
+            else
+            {
+                PhotonNetwork.DestroyPlayerObjects(PhotonNetwork.LocalPlayer);
+                PhotonNetwork.LeaveRoom();
+            }
         }
-        else
-        {
-            PausePanel.SetActive(false);
-        }
+    }
+    private void MigrateMaster()
+    {
+        var dict = PhotonNetwork.CurrentRoom.Players;
+        if (PhotonNetwork.SetMasterClient(dict[dict.Count - 1]))
+            PhotonNetwork.LeaveRoom();
+    }
+    public override void OnLeftRoom()
+    {
+        PhotonNetwork.LoadLevel("Lobby");
     }
 }

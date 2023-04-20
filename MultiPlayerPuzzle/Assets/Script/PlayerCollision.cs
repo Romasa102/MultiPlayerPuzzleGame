@@ -46,6 +46,7 @@ public class PlayerCollision : MonoBehaviour
         }
         if (collision.gameObject.tag == "GravityChanger")
         {
+            Debug.Log("yo");
             rb.velocity = Vector2.zero;
             photonView.RPC("ChangeGravity", RpcTarget.All, -Physics2D.gravity.y);
         }

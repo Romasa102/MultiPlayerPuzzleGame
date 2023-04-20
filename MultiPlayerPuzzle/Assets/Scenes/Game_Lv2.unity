@@ -9177,6 +9177,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6507147583199299640, guid: 7ce30c54794014eeba240b2034415d70, type: 3}
+      propertyPath: Waiting
+      value: 
+      objectReference: {fileID: 6879005917943130313}
+    - target: {fileID: 6507147583199299640, guid: 7ce30c54794014eeba240b2034415d70, type: 3}
       propertyPath: StartPosition.x
       value: -16.5
       objectReference: {fileID: 0}
@@ -9327,3 +9331,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7bc3ccf76a6742cd9f2d6b62dbfb2fb, type: 3}
+--- !u!1 &6879005917943130313 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 313319246, guid: d7bc3ccf76a6742cd9f2d6b62dbfb2fb, type: 3}
+  m_PrefabInstance: {fileID: 6879005917943130312}
+  m_PrefabAsset: {fileID: 0}
